@@ -4,7 +4,7 @@ import "./App.css";
 import TaglineSection from "./TaglineSection";
 
 const api = axios.create({
-  baseURL: "https://inventflow-backend-1.onrender.com",
+  baseURL: "https://inventflow-backend.onrender.com",
 });
 
 function App() {
