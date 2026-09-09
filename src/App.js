@@ -317,7 +317,7 @@ function App() {
             {error && <div className="error-msg">{error}</div>}
           </div>
 
-          <TaglineSection />
+          {/* <TaglineSection /> */}
 
           <div className="card list-card">
             <h2>Products</h2>
@@ -373,7 +373,7 @@ function App() {
                         <td>
                           {p.image_url && (
                             <img
-                              src={`http://localhost:8000/${p.image_url}`}
+                              src={`https://inventflow-backend.onrender.com/${p.image_url}`}
                               alt={p.name}
                               width="50"
                               height="50"
